@@ -17,7 +17,7 @@ body {
 
 .container p {
   width: 70%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .container ol {
@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 500px) {
   .container iframe {
-    width: 90%;
+    width: 95%;
   }
 }
 
