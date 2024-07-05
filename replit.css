@@ -3,11 +3,27 @@ body {
   text-align: center;
 }
 
-h1 {
-  margin: 2rem auto;
+.container {
+  padding 2rem;
 }
 
-iframe {
+.container h1 {
+  margin: 3rem auto;
+}
+
+.container p, .container span {
+  margin: 1rem;
+}
+
+.container p {
+  width: 70%;
+}
+
+.container ol li {
+  width: 30%;
+}
+
+.container iframe {
   width: 50%;
   height: 415px;
 }
