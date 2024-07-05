@@ -17,10 +17,7 @@ body {
 
 .container p {
   width: 70%;
-}
-
-.container span {
-  margin-top; 2rem;
+  margin-bottom: 2rem;
 }
 
 .container ol {
@@ -33,6 +30,7 @@ body {
   height: 415px;
   border: 10px solid brown;
   margin: 1rem auto;
+  background-color: black;
 }
 
 @media (max-width: 800px) {
