@@ -8,7 +8,7 @@ body {
 }
 
 .container h1 {
-  margin: 3rem auto;
+  margin: 1rem auto 3rem;
 }
 
 .container p, .container span {
@@ -19,6 +19,10 @@ body {
   width: 70%;
 }
 
+.container span {
+  margin-top; 2rem;
+}
+
 .container ol {
   width: 30%;
   margin: 2rem auto;
@@ -27,4 +31,26 @@ body {
 .container iframe {
   width: 50%;
   height: 415px;
+  border: 10px solid brown;
+  margin: 1rem auto;
 }
+
+@media (max-width: 800px) {
+  .container iframe {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container iframe {
+    width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container iframe {
+    width: 90%;
+  }
+}
+
+
