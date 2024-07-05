@@ -12,7 +12,7 @@ body {
 }
 
 .container p, .container span {
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 .container p {
