@@ -20,11 +20,8 @@ body {
 }
 
 .container ol {
-  margin 2rem auto;
-}
-
-.container ol li {
   width: 30%;
+  margin 2rem auto;
 }
 
 .container iframe {
